@@ -1,5 +1,7 @@
 # dataz-doc
 
+[![Documentation Status](https://readthedocs.org/projects/dataset-doc/badge/?version=latest)](http://dataset-doc.readthedocs.io/en/latest/?badge=latest)
+
 This repository contains the documentation for the project [dataZ](http://github.com/loddar/dataz-core).
 
 ## dataZ
