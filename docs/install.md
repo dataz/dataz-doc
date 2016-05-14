@@ -1,4 +1,4 @@
-# Installation of dataSet
+# Installation of dataZ
 
 ## Maven
 

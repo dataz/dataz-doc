@@ -1,35 +1,37 @@
 # Introduction
 
-[_dataSet_][ds] provides easy test support for testing of different datastore (currently) using [JUnit][ju].
+[_dataZ_][dz] provides easy test support for testing of different datastore (currently) using [JUnit][ju].
 
 ## Features
 
-First of all it's fast and easy to use and brings fun back(?) to the testing of datastores. 
+First of all dataZ is fast and easy to use and brings fun back(?) to the testing of databases. 
 
-Second [it][ds] will 
 
+Second dataZ will 
 - __eleminate boilerplate code__, 
 - makes your tests __more expressive__, 
 - better organized and 
 - therefore __maintainable__.
 
+Third dataZ is highly extendable and adaptable.
 
-### Datastore
+### Databases
+
+Within a Database we call it a __Datastore__.
 
 - Supports any kind of datastore 
-- ... currently SQL and [Neo4J][n4j].
-
+ ... currently any SQL databases and [Neo4J][n4j].
 - Supports one or many datastores
-- ... homegenious: two or more databases of the same type (SQL __or__ [Neo4J][n4j])
-- ... heterogenious (two or more databases of different types (SQL __and__ [Neo4J][n4j])
-- It's also possible to use different SQL datastores. This is also somehow hetergenious.
-
+	*  ... _homegenious_: two or more databases of the same type (any SQL database __or__ [Neo4J][n4j])
+	*  ... _heterogenious_ (two or more databases of different types (any SQL database __and__ [Neo4J][n4j])
+	*  It's also possible to use different SQL databases. This is also somehow hetergenious.
+	
 
 ### Test fixtures (or datasets)
 
-- Multiple dataSets
-- Mixture of fixed and shared test fixtures (called DataSet)
-- Mixin of datasets
+- Multiple datasets
+- Mixture of fixed and shared test fixtures
+- Reuse of predefined datasets (by using @Use)
 - Organization of your test fixtures
 - Test fixture as template scripts
 
@@ -48,11 +50,11 @@ Almost everything is extendable. You can write your own
 - Template object like 
 	- generators, 
 	- encoders or
-	- any functionality [dataSet][ds] does and will not support. 
+	- any other functionality [dataZ][dz] is typical to your project and won’t be useful for any other.
 - or even write your own bunch for your project(s).
 
 - Have a datastore which is not yet supported. _Write your own_.
-- Or you wan't to use your own dataset format, because the customer is providing test data. Just do it.
+- Or you wan't to use your own format, because the customer is providing test data. Just do it.
 
 - Don't like [velocity][vc] as _template engine_. _Write your own_.
 
@@ -61,7 +63,7 @@ Almost everything is extendable. You can write your own
 
 
 
-[ds]: http://github.com/loddar/dataset "dataSet (core) on github"
+[dz]: http://github.com/dataz "dataZ@github"
 [n4j]: http://neo4j.com/ "Home of Neo4J"
 [ju]: http://junit.org/ "Home of JUnit"
 [vc]: http://velocity.apache.org/ "Home of Apache Velocity"
