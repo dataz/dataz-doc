@@ -1,5 +1,5 @@
-site_name: DataSet Documentation
-repo_url: https://github.com/loddar/dataset-doc
+site_name: dataZ Documentation
+repo_url: https://github.com/dataz/dataz-doc
 pages:
 - Home: 'index.md'
 - Install : 'install.md'
