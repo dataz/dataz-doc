@@ -4,7 +4,7 @@ This repository contains the documentation for the project [dataZ](http://github
 
 ## dataZ
 
-[dataSet](http://github.com/loddar/dataz-core) provides test support for testing of different datastore (currently) using [JUnit](http://junit.org/).
+[dataZ](http://github.com/loddar/dataz-core) provides test support for testing of different datastore (currently) using [JUnit](http://junit.org/).
 
 Main features are:
 
