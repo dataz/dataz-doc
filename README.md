@@ -1,10 +1,10 @@
-# dataset-doc
+# dataz-doc
 
-This repository contains the documentation for the project [dataSet](http://github.com/loddar/dataset).
+This repository contains the documentation for the project [dataZ](http://github.com/loddar/dataz-core).
 
-## dataSet
+## dataZ
 
-[dataSet](http://github.com/loddar/dataset) provides test support for testing of different datastore (currently) using [JUnit](http://junit.org/).
+[dataSet](http://github.com/loddar/dataz-core) provides test support for testing of different datastore (currently) using [JUnit](http://junit.org/).
 
 Main features are:
 
