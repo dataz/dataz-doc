@@ -1,6 +1,6 @@
 # dataz-doc
 
-[![Documentation Status](https://readthedocs.org/projects/dataset-doc/badge/?version=latest)](http://dataset-doc.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/dataz-doc/badge/?version=latest)](http://dataz-doc.readthedocs.io/en/latest/?badge=latest)
 
 This repository contains the documentation for the project [dataZ](http://github.com/loddar/dataz-core).
 
@@ -23,7 +23,7 @@ Main features are:
 
 ## The builded documentation ...
 
-... could be found under [here](http://dataset-doc.rtfd.org).
+... could be found under [here](http://dataz-doc.rtfd.org).
 
 ## License
 
